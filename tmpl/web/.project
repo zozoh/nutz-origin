@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>${projectHome}</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>ROOT</name>
+			<type>2</type>
+			<location>${projectHome}/ROOT</location>
+		</link>
+		<link>
+			<name>build</name>
+			<type>2</type>
+			<location>${projectHome}/build</location>
+		</link>
+		<link>
+			<name>conf</name>
+			<type>2</type>
+			<location>${projectHome}/conf</location>
+		</link>
+		<link>
+			<name>src</name>
+			<type>2</type>
+			<location>${projectHome}/src</location>
+		</link>
+		<link>
+			<name>test</name>
+			<type>2</type>
+			<location>${projectHome}/test</location>
+		</link>
+	</linkedResources>
+</projectDescription>

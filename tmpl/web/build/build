@@ -1,0 +1,7 @@
+#! /bin/sh
+export JAVA_HOME=${javaHome}
+export DEPS=${buildDepsJars}
+export OUTPUT=${buildOutput}
+export PROJECT_HOME=${projectHome}
+
+ant -f $PROJECT_HOME/build/build.xml
