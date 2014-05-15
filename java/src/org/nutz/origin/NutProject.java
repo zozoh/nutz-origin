@@ -15,15 +15,17 @@ public class NutProject {
 
     private String projectHome;
 
+    private String packages;
+
     private String projectName;
 
     private String mainName;
 
     private String tmpldir;
 
-    private String classpathentries;
+    private String eclipseClasspathentries;
 
-    private String packages;
+    private String eclipseWorkspace;
 
     public String getJavaHome() {
         return javaHome;
@@ -57,6 +59,14 @@ public class NutProject {
         this.projectHome = projectHome;
     }
 
+    public String getPackages() {
+        return packages;
+    }
+
+    public void setPackages(String packages) {
+        this.packages = packages;
+    }
+
     public String getProjectName() {
         return projectName;
     }
@@ -81,20 +91,20 @@ public class NutProject {
         this.tmpldir = tmpldir;
     }
 
-    public String getClasspathentries() {
-        return classpathentries;
+    public String getEclipseClasspathentries() {
+        return eclipseClasspathentries;
     }
 
-    public void setClasspathentries(String classpathentries) {
-        this.classpathentries = classpathentries;
+    public void setEclipseClasspathentries(String classpathentries) {
+        this.eclipseClasspathentries = classpathentries;
     }
 
-    public String getPackages() {
-        return packages;
+    public String getEclipseWorkspace() {
+        return eclipseWorkspace;
     }
 
-    public void setPackages(String packages) {
-        this.packages = packages;
+    public void setEclipseWorkspace(String eclipseWorkspace) {
+        this.eclipseWorkspace = eclipseWorkspace;
     }
 
 }
